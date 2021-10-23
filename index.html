@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="index.css">
+  <title>Test</title>
+</head>
+
+<body>
+  <div id="main">
+    <h3>Enter a word or a senatnce:</h3>
+    <textarea id="textenter" name="review" rows="5" cols="40"></textarea>
+    <div>
+      <input type="button" class="btn-class" id="ok" value="OK" onclick="calculate()">
+      <input type="button" class="btn-class" id="clear" value="CLEAR" onclick="myFunction()">
+    </div>
+
+    <div id="message1" style="display: none;">
+      <span class="st">The word or string is: </span> <span id="string"></span>
+    </div>
+    <div id="message2" style="display: none;">
+      <span class="st">Number of Vowels : </span>
+      <span class="st" id="vowels"></span><br>
+      <span class="st">Number of Consonants : </span>
+      <span class="st" id="const"></span><br>
+      <span class="st">Number of Integers : </span>
+      <span class="st" id="int"></span><br>
+
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>
